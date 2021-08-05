@@ -1,0 +1,84 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+} */
+/* 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+body { background: #0f0f0f; }
+
+#about {
+  background: #2B2B2B;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+}
+
+#about a, #about a:visited  { color: #fff; }
+#about a:hover, #about a:focus { color: #11ABB0; }
+
+#about h2 {
+  font: 22px/30px 'opensans-bold', sans-serif;
+  color: #fff;
+  margin-bottom: 12px;
+}
+#about p {
+  line-height: 30px;
+  color: #7A7A7A;
+}
+#about .profilepic {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+#about .contact-details { width: 41.66667%; }
+#about .download {
+  width: 58.33333%;
+  padding-top: 6px;
+}
+#about .main-col { padding-right: 5%; }
+#about .download .button {
+  margin-top: 6px;
+  background: #444;
+}
+#about .download .button:hover {
+  background: #fff;
+  color: #2B2B2B;
+}
+#about .download .button i {
+  margin-right: 15px;
+  font-size: 20px;
+}
