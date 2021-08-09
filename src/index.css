@@ -413,7 +413,7 @@ header {
   flex-wrap: wrap;
 }
 
-footer {
+/* footer {
   background: #494747;
   height: 55px;
   bottom: 0px;
@@ -421,7 +421,7 @@ footer {
   right: 0px;
   margin-bottom: 0px;
   text-align: center;
-}
+} */
 
 .social-line{
   position: fixed;

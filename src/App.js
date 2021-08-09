@@ -5,6 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -23,18 +24,19 @@ function App() {
     }
   };
   return (
+    <React.Fragment>
     <div>
         <main>
             <Nav
                 currentPage={currentPage}
                 handlePageChange={handlePageChange}
             />
-
             <div>{renderPage(currentPage)}</div>
-
-            
         </main>
     </div>
+    <Footer></Footer>
+    </React.Fragment>
+    
 );
 }
 
