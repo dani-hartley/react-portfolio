@@ -41,5 +41,8 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Screenshots
 
-
+![Homepage](https://user-images.githubusercontent.com/79660405/128659310-03fd7bf5-4b64-495d-9826-1cdda698ea7d.png)
+![About Me](https://user-images.githubusercontent.com/79660405/128659355-2197cd8a-d233-4230-9b66-6916fdf580cc.png)
+![Portfolio](https://user-images.githubusercontent.com/79660405/128659399-1a1e1eb8-9fbb-4705-bda1-d38c4a67ec75.png)
+![Contact](https://user-images.githubusercontent.com/79660405/128659524-a3b8b805-4930-4d35-bd9a-8b0980d987a3.png)
 
