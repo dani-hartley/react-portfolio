@@ -3,7 +3,7 @@ import './App.css';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import About from './components/About';
-import ContactForm from './components/Contact';
+import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 
 
@@ -16,7 +16,7 @@ function App() {
       case "About":
         return <About />;
       case "Contact":
-        return <ContactForm />
+        return <Contact />
       case "Portfolio":
         return <Portfolio />
       default: return <Home />;

@@ -36,7 +36,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+  font: 22px/30px 'opensans-bold', sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -385,7 +385,7 @@ a {
   padding: 2px 4px;
   margin-left: -2px;
   margin-right: -2px;
-  font-family: 'Cabin Sketch', cursive;
+  font: 22px/30px 'opensans-bold', sans-serif;
 }
 
 .navActive {
@@ -394,7 +394,7 @@ a {
 
 .titles {
   text-align: center;
-  font-family: 'Cabin Sketch', cursive;
+  font: 22px/30px 'opensans-bold', sans-serif;
 }
 
 header {
