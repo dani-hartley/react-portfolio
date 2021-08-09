@@ -304,6 +304,66 @@ textarea {
   margin-bottom: 50px;
   cursor: pointer;
 }
+/*portfolio style*/
+a {
+  color: var(--secondary);
+  text-decoration: none;
+}
+
+.project-card {
+  border: 2px solid var(--secondary);
+  background-size: cover;
+  margin: 20px;
+  width: 100%;
+  height: 40%;
+}
+
+.project-card:hover {
+  background-color: var(--light);
+  border: 4px solid var(--tertiary);
+  color: var(--primary);
+}
+
+.project-content {
+  height: 100%;
+  opacity: 0;
+}
+
+.project-content:hover {
+  opacity: 1;
+}
+
+.project-icon {
+  margin-left: 14px;
+}
+
+.project-title, .project-info {
+  background-color: rgba(32, 116, 141, 0.7);
+}
+
+.project-title h3 {
+  margin-left: 10px;
+  text-align: center;
+}
+
+.project-info {
+  padding: 3px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.project-icon:hover {
+  content: url('./assets/GitHub-Mark-32px.png');
+}
+
+.project-card span:hover {
+  text-decoration: none;
+  cursor: none;
+}
+
+.content-container {
+  min-height: 95vh;
+}
 
 
 button {

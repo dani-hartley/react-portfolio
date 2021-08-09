@@ -4,6 +4,7 @@ import stumbleImg from '../../assets/images/stumble.PNG';
 import pizzaImg from '../../assets/images/pizza-hunt.PNG';
 import runBuddyImg from '../../assets/images/run-buddy.PNG';
 import justTechImg from '../../assets/images/just-tech-news.PNG';
+import githubIcon from '../../assets/GitHub-Mark-32px.png';
 
 function Project() {
     const applications = [
@@ -51,7 +52,7 @@ function Project() {
                     <div className="project-content flex-column space-between">
                         <div className="project-title flex-row align-item-center" key={project.title}>
                             <h3><a href={project.appLink} target="_blank" className="appLink">{project.title}</a></h3>
-                            {/* <a href={project.repoLink} target="_blank"><img src={githubIcon} style={{width: "30px", height: "30px"}} alt="" className="project-icon"></img></a> */}
+                            <a href={project.repoLink} target="_blank"><img src={githubIcon} style={{width: "30px", height: "30px"}} alt="" className="project-icon"></img></a>
                         </div>
                         <span className="project-info">{project.languages}</span>
                     </div>
