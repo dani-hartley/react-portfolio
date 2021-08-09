@@ -4,6 +4,7 @@ import Nav from './components/Nav';
 import Home from './components/Home';
 import About from './components/About';
 import ContactForm from './components/Contact';
+import Portfolio from './components/Portfolio';
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
         return <About />;
       case "Contact":
         return <ContactForm />
+      case "Portfolio":
+        return <Portfolio />
       default: return <Home />;
     }
   };
