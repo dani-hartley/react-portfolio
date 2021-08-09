@@ -7,7 +7,7 @@ main {
   --secondary: #A1B5D8;
   --tertiary: #738290;
   --light: #21617a;
-  --dark: #0000008f;
+  --dark: #030303;
   --darker: #111111b4;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -413,15 +413,15 @@ header {
   flex-wrap: wrap;
 }
 
-/* footer {
-  background: #494747;
+footer {
+  background: #738290;
   height: 55px;
   bottom: 0px;
   left: 0px;
   right: 0px;
   margin-bottom: 0px;
   text-align: center;
-} */
+}
 
 .social-line{
   position: fixed;

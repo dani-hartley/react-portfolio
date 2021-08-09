@@ -5,9 +5,9 @@ function Nav(props) {
 
     return (
         <header id="flex-row">
-            <h2>
+            {/* <h2>
                 <a href="https://dani-hartley.github.io/react-portfolio/">Dani Hartley</a>
-            </h2>
+            </h2> */}
             <nav className="flex-row">
             <ul className="nav-row">
                 {tabs.map((tab) => (

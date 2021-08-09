@@ -10,10 +10,6 @@ function Home() {
                 <h2 className="titles">I'm an Austin based <span>Web Developer</span>. Five years of leadership experience in leading large teams in operations and process improvement.
                     I am passionate about teaching and developing others, taking on new challenges, and finding creative solutions through data-driven analysis.
                     I believe change and adaptability are an essential part of growth. </h2>
-                <hr />
-                <ul className="social">
-                    <li><a href="https://github.com/dani-hartley"><i className="fa fa-github"></i></a></li>
-                </ul>
             </div>
 
         </section >
