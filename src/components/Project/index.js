@@ -1,13 +1,22 @@
 import React from 'react';
+import { Card, Button } from 'react-bootstrap';
 import collectorImg from '../../assets/images/collectors-vault.PNG';
 import stumbleImg from '../../assets/images/stumble.PNG';
 import pizzaImg from '../../assets/images/pizza-hunt.PNG';
 import runBuddyImg from '../../assets/images/run-buddy.PNG';
 import justTechImg from '../../assets/images/just-tech-news.PNG';
 import githubIcon from '../../assets/GitHub-Mark-32px.png';
+import bikeSleuth from '../../assets/images/BikeSleuth.PNG'
 
 function Project() {
     const applications = [
+        {
+            title: 'BikeSleuth',
+            appLink: 'https://bikesleuth.herokuapp.com/#/',
+            repoLink: ' https://github.com/Chrisdocs/FindMyBike',
+            languages: 'MERN/GraphQL/JavaScript',
+            picture: bikeSleuth
+        },
         {
             title: 'The Collectors Vault',
             appLink: 'https://the-collectors-vault.herokuapp.com/',
@@ -46,6 +55,26 @@ function Project() {
     ];
 
     return (
+        // <div>
+        //     {applications.map(project =>(
+        //     <Card style={{ width: '18rem' }}>
+        //         <Card.Img variant="top" style={project.picture} />
+        //         <Card.Body>
+        //             <Card.Title>{project.title} </Card.Title>
+        //             <Card.Text>
+        //                 {project.languages}
+        //             </Card.Text>
+        //             <Button href={project.appLink} variant="primary">Go to Application</Button>
+        //         </Card.Body>
+        //     </Card>
+        //     ))}
+        // </div>
+
+
+
+
+
+
         <div className="project-container flex-row space-evenly">
             {applications.map(project => (
                 <article className="project-card" key={project.title} style={{backgroundImage: `url(${project.picture})`}}>
